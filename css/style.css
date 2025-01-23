@@ -67,3 +67,30 @@ ul li, ol li {
     background-color: #f9f9f9;
     position: relative;
 }
+
+.form-link .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bc4cfd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.form-link .button:hover {
+    background-color: #8a36b3;
+}
+
+.form-link .button:active {
+    background-color: #5a2472;
+    transform: scale(0.98);
+}
+
+.form-link .button:focus {
+    outline: 2px solid #bc4cfd;
+    outline-offset: 2px;
+}
