@@ -64,3 +64,27 @@ ul li, ol li {
     border-radius: 8px;
     border: 4px solid #ccc;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.column {
+    position: relative;
+}
+
+.optimized-image {
+    display: block;
+    margin: 0 auto;
+}
